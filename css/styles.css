@@ -1,0 +1,70 @@
+
+body.body {
+    position: relative;
+  }
+  
+  body.body:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url(../images/b2t8/synthwave-3941721_1920.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    
+  }
+
+
+  .bg-img, .bg-img-z {
+    position: relative;
+  }
+  
+  .bg-img:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url(../images/b2t8/synthwave-3941721_1920.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+  }
+
+  .bg-img-z:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    background-image: url(../images/b2t8/synthwave-3941721_1920.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    z-index: -100;
+  }
+  
+
+  .bi-spotify::before {
+    content: "\F666";
+}
+
+.accordion-button {
+  background-color: var(--dark-color) !important;
+}
+
+.accordion-item {
+  background-color: var(--white-color) !important;
+}
+
+.accordion-collapse {
+  background-color: var(--neon-green-light);
+}
