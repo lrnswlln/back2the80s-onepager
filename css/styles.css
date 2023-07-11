@@ -68,3 +68,14 @@ body.body {
 .accordion-collapse {
   background-color: var(--neon-green-light);
 }
+
+.hero {
+  height: 90vh;
+}
+
+.videoWrapper {
+  height: 100%;
+}
+.custom-video {
+  object-fit: cover;
+}
